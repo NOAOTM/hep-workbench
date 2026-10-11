@@ -1,0 +1,10 @@
+# 高能物理在线计算工作台 —— Python 依赖
+# 建议使用 Python 3.10 - 3.12（Streamlit Community Cloud 默认 3.11/3.12）
+# 安装：pip install -r requirements.txt
+
+streamlit>=1.49,<2.0     # Web 框架（纯 Python 生成前端；width="stretch" 需 >=1.49）
+numpy>=1.26              # 数值数组计算
+scipy>=1.11              # 数值积分 (solve_ivp)、特殊函数 (beta)
+pandas>=2.0              # 结果表格
+plotly>=5.18             # 交互式可视化
+sympy>=1.12              # 公式符号推导
